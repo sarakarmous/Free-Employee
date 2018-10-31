@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_marginbottom="10dp"
+        android:text="name"
+        android:layout_height="wrap_content"
+
+        />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:text="phone"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_marginbottom="10dp"
+        android:text="phone"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="password"
+        android:layout_height="wrap_content"
+
+        />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:text="password"
+        android:inputType ="textPassword"
+        android:layout_height="wrap_content"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="profession"
+        android:layout_height="wrap_content"
+
+        />
+
+    <EditText
+        android:id="@+id/etprofession"
+        android:layout_width="match_parent"
+        android:text="profession"
+        android:inputType ="textPassword"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/blogout"
+        android:text="blogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

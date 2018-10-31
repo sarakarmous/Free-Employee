@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:text="username"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginbottom="10dp"
+        android:text.hint="username"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="password"
+        android:layout_height="wrap_content"
+
+        />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text.hint="password" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email account" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginbottom="10dp"
+        android:text.hint="email"
+
+        />
+
+    <Button
+        android:id="@+id/blogin22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login" />
+
+    <TextView
+        android:id="@+id/etsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text.hint="sign up"
+        android:textStyle="bold"
+
+        />
+
+
+    emailInput
+</LinearLayout>
